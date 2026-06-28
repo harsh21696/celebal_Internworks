@@ -1,122 +1,211 @@
-# Basic Data Exploration and Cleaning using Pandas
+# Celebal Technologies Internship
+
+## 📌 Repository Overview
+
+This repository contains the assignments completed as part of the **Celebal Technologies Internship Program**. The assignments focus on practical implementation of **Python, Pandas, SQL, Database Design, and Data Analysis** concepts. Each week's work demonstrates hands-on experience with real-world datasets and database management.
+
+---
+
+## 👨‍💻 Author
+
+**Harsh Wardhan**
+B.Tech Computer Science & Engineering
+DIT University, Dehradun
+
+---
+
+# Week 1 – Basic Data Exploration and Cleaning using Pandas
 
 ## Project Overview
 
-This project was completed as part of an internship assignment to learn the fundamentals of Python and data analysis using the Pandas library. The objective was to load a dataset, explore its structure, clean the data, perform basic operations, and save the cleaned dataset for further analysis.
+The objective of this assignment was to learn the fundamentals of Python and perform data exploration and cleaning using the Pandas library. The dataset was loaded into a Pandas DataFrame, explored, cleaned, transformed, and exported as a new CSV file.
 
---------------------
-
-## Objectives
+### Objectives
 
 * Load a CSV dataset into a Pandas DataFrame
 * Explore the dataset structure and contents
 * Identify and handle missing values
-* Perform basic filtering and column selection operations
+* Perform filtering and column selection
 * Remove duplicate records
 * Create a derived column
-* Save the cleaned dataset as a new CSV file
+* Save the cleaned dataset
 
---------------------
-
-## 🛠️ Technologies Used
+### Technologies Used
 
 * Python 3.x
 * Pandas
 * Jupyter Notebook
 * Visual Studio Code
 
---------------------
+### Project Structure
 
-## Project Structure
 
-ASSIGNWORKS/
+Week1_Pandas/
 │
-├── Combined_dataset.csv              # Original dataset
-├── Combined_dataset_analysis.ipynb   # Data cleaning and analysis notebook
-├── cleaned_dataset.csv               # Cleaned dataset
+├── Combined_dataset.csv
+├── Combined_dataset_analysis.ipynb
+├── cleaned_dataset.csv
 └── README.md
 
---------------------
 
-## Data Exploration
+### Tasks Performed
 
-The following exploratory operations were performed:
+* Loaded the dataset using Pandas
+* Explored the data using:
 
-* Displayed the first and last few records using `head()` and `tail()`
-* Examined dataset dimensions using `shape`
-* Inspected column names
-* Checked data types of all columns
-* Generated dataset information using `info()`
+  * `head()`
+  * `tail()`
+  * `shape`
+  * `columns`
+  * `dtypes`
+  * `info()`
+* Handled missing values using `fillna()`
+* Removed unnecessary columns
+* Removed duplicate records
+* Selected and filtered data
+* Created a derived column:
 
---------------------
+ 
+  total_amount = final_price × quantity
 
-## Data Cleaning
+* Exported the cleaned dataset as `cleaned_dataset.csv`
 
-### Missing Value Handling
+### Output
 
-* Filled missing values in the `discount` column with `0`
-* Filled missing values in the `seller_name` column with `"Unknown"`
-* Filled missing values in the `seller_information` column with `"Not Available"`
+* Cleaned CSV Dataset
+* Jupyter Notebook
+* Documentation
+  
+---
 
-### Column Removal
+# Week 2 – SQL Database Design and Business Analysis
 
-* Removed the `videos` column due to a large number of missing values
+## Project Overview
 
-### Duplicate Removal
+The objective of this assignment was to design and implement an E-Commerce Sales Database using SQL. The project demonstrates database creation, data manipulation, filtering, aggregation, joins, and transaction management using MySQL.
 
-* Identified and removed duplicate records from the dataset
+### Objectives
 
---------------------
+* Create a relational database
+* Design tables with Primary Keys and Foreign Keys
+* Insert sample data
+* Retrieve and analyze data using SQL
+* Perform filtering, sorting, and aggregation
+* Implement JOIN operations
+* Demonstrate transaction handling
+* Understand ACID properties
 
-## 🔍 Basic Operations Performed
+### Technologies Used
 
-### Column Selection
+* MySQL 8.0
+* MySQL Workbench
+* SQL (DDL, DML, DQL, TCL)
 
-Selected relevant columns such as:
+### Project Structure
 
-df[["title", "rating", "final_price"]]
+```text
+Week2_SQL/
+│
+├── allqueries.sql
+├── CEI_SQL_Task2_Week2(1)(1).docx
+└── README.md.txt
+```
 
-### Row Filtering
+### Topics Covered
 
-Filtered products based on conditions such as:
+#### Database Design
 
-df[df["rating"] > 4]
+* Database Creation
+* Table Creation
+* Primary Keys
+* Foreign Keys
+* Constraints
+* Indexes
 
-and
+#### SQL Operations
 
-df[df["final_price"] > 500]
+* SELECT
+* WHERE
+* DISTINCT
+* ORDER BY
+* GROUP BY
+* HAVING
 
-## Derived Column Creation
+#### Aggregate Functions
 
-A new column named `total_amount` was created using:
+* COUNT()
+* SUM()
+* AVG()
+* MIN()
+* MAX()
 
-df["quantity"] = 1
-df["total_amount"] = df["final_price"] * df["quantity"]
+#### JOIN Operations
 
+* INNER JOIN
+* LEFT JOIN
+* Multi-table JOIN
 
---------------------
+#### Advanced SQL
 
-## Output
+* CASE Statement
+* Transactions
+* COMMIT
+* ROLLBACK
+* ACID Properties
 
-The cleaned dataset was exported as:
+### Tasks Performed
 
-cleaned_dataset.csv
+* Designed relational database schema
+* Inserted sample records
+* Solved 27 SQL queries
+* Applied filtering and aggregation techniques
+* Performed joins across multiple tables
+* Demonstrated transaction management
+* Maintained data integrity using constraints
 
-using:
+### Deliverables
 
-df.to_csv("cleaned_dataset.csv", index=False)
+* Database Setup Script
+* SQL Query Solutions
+* Query Result Report
+* Documentation
 
---------------------
+---
 
-## Summary
+# Repository Structure
 
-This project demonstrates the fundamental data preprocessing workflow using Pandas, including data loading, exploration, cleaning, filtering, transformation, and exporting. The cleaned dataset is ready for further analysis, visualization, or machine learning tasks.
+celebal_Internworks/
+│
+├── Week1_Pandas/
+│   ├── Combined_dataset.csv
+│   ├── Combined_dataset_analysis.ipynb
+│   ├── cleaned_dataset.csv
+│   └── README.md
+│
+├── Week2_SQL/
+│   ├── allqueries.sql
+│   ├── CEI_SQL_Task2_Week2(1)(1).docx
+│   └── README.md.txt
+│
+└── README.md
+```
 
---------------------
+# Learning Outcomes
 
-## 👨‍💻 Author
+Through these assignments, I gained practical experience in:
 
-**Harsh Wardhan**
-B.Tech CSE, DIT University
+* Python Programming
+* Data Cleaning using Pandas
+* Exploratory Data Analysis (EDA)
+* SQL Database Design
+* SQL Queries and Data Retrieval
+* Aggregate Functions
+* JOIN Operations
+* Transaction Management
+* ACID Properties
+* Business Data Analysis
+* Git & GitHub for Version Control
 
-Internship Assignment 1 – Data Exploration and Cleaning using Pandas
+## Acknowledgement
+
+These assignments were completed as part of the **Celebal Technologies Internship Program** to strengthen practical skills in Python, SQL, and data analysis through real-world tasks and hands-on implementation.
