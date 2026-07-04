@@ -1,10 +1,9 @@
 # Week 3 – SQL Analysis using Subqueries, CTEs and Window Functions
-
 ## Project Overview
+
 This project was completed as part of the **Celebal Technologies Internship – Week 3**. The objective was to analyze the Superstore sales dataset using advanced SQL concepts such as **Subqueries, Common Table Expressions (CTEs), Window Functions, and Joins** to solve real-world business problems.
 
 ---
-
 ## Objectives
 
 * Import the Superstore dataset into MySQL.
@@ -16,7 +15,6 @@ This project was completed as part of the **Celebal Technologies Internship – 
 * Generate customer sales insights.
 
 ---
-
 ## Technologies Used
 
 * MySQL 8.0
@@ -27,11 +25,13 @@ This project was completed as part of the **Celebal Technologies Internship – 
 ---
 ## Project Structure
 
+```text
 Week3_SQL/
 │
 ├── week3_Assignment(SQL Queries).sql
-├── Week3_taskSolution.docx
+├── week3_taskSolution.docx
 └── README.md
+```
 
 ---
 ## Database Tables
@@ -69,7 +69,6 @@ The following tables were created from the `superstore_raw` dataset:
 ## Mini Project
 
 Business questions solved:
-
 * Top 5 customers
 * Bottom 5 customers
 * Customers with only one order
@@ -84,7 +83,6 @@ Business questions solved:
 * Documentation (`README.md`)
 
 ---
-
 ## Learning Outcomes
 
 Through this assignment, I learned:
