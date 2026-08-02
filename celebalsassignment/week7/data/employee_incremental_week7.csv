@@ -1,0 +1,11 @@
+employee_id,employee_name,work_location,email_address,department,employment_status
+E103,Rohan Gupta,Mumbai,rohan.gupta@company.com,Finance,Active
+E107,Rahul Mehta,Hyderabad,rahul.mehta@company.com,Engineering,Active
+E112,Meera Joshi,Lucknow,meera.joshi@company.com,Support,Active
+E118,Riya Sen,Patna,riya.sen@company.com,Sales,Active
+E120,Tanvi Mishra,Delhi,tanvi.mishra@company.com,Marketing,Active
+E121,Aditi Khanna,Gurugram,aditi.khanna@company.com,Engineering,Active
+E122,Mohit Arora,Pune,mohit.arora@company.com,Finance,Active
+E123,Sakshi Bansal,Chennai,sakshi.bansal@company.com,HR,Active
+E124,Dev Agarwal,Jaipur,dev.agarwal@company.com,Support,Active
+E125,Ankit Tiwari,Bengaluru,ankit.tiwari@company.com,Sales,Active

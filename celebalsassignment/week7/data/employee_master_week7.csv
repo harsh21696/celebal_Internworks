@@ -1,0 +1,21 @@
+employee_id,employee_name,work_location,email_address,department,employment_status
+E101,Aarav Sharma,Bengaluru,aarav.sharma@company.com,Engineering,Active
+E102,Diya Verma,Hyderabad,diya.verma@company.com,HR,Active
+E103,Rohan Gupta,Pune,rohan.gupta@company.com,Finance,Inactive
+E104,Sneha Iyer,Chennai,sneha.iyer@company.com,Marketing,Active
+E105,Kabir Singh,Delhi,kabir.singh@company.com,Sales,Active
+E106,Ananya Das,Kolkata,ananya.das@company.com,Support,Active
+E107,Rahul Mehta,Mumbai,rahul.mehta@company.com,Engineering,Active
+E108,Neha Jain,Jaipur,neha.jain@company.com,Finance,Inactive
+E109,Arjun Rao,Ahmedabad,arjun.rao@company.com,Engineering,Active
+E110,Priya Nair,Kochi,priya.nair@company.com,HR,Active
+E111,Vikram Patel,Surat,vikram.patel@company.com,Sales,Active
+E112,Meera Joshi,Lucknow,meera.joshi@company.com,Support,Inactive
+E113,Karan Malhotra,Noida,karan.malhotra@company.com,Engineering,Active
+E114,Ishita Roy,Bhopal,ishita.roy@company.com,Marketing,Active
+E115,Yash Kapoor,Indore,yash.kapoor@company.com,Finance,Active
+E116,Pooja Kulkarni,Nagpur,pooja.kulkarni@company.com,HR,Active
+E117,Nitin Saini,Chandigarh,nitin.saini@company.com,Support,Active
+E118,Riya Sen,Patna,riya.sen@company.com,Sales,Inactive
+E119,Harsh Vardhan,Dehradun,harsh.vardhan@company.com,Engineering,Active
+E120,Tanvi Mishra,Varanasi,tanvi.mishra@company.com,Marketing,Active
