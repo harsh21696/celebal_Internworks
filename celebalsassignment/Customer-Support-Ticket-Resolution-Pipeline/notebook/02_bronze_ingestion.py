@@ -39,7 +39,7 @@ PATH_AGENTS     = f"{BASE_PATH}/agents.csv"
 # ── ADLS OAuth config (from 01_Setup, re-declared here for standalone use) ────
 client_id      = "cba4dc0b-3067-48fe-ab3f-650763abcd67"
 tenant_id      = "a6dbddde-5798-4eba-a5a8-78807e82d9eb"
-client_secret  = "FjA8Q~Vb8hrporIpu~CnVGtcctdrydnnE5osFca3"
+client_secret  = " "
 
 spark.conf.set(f"fs.azure.account.auth.type.{STORAGE_ACCOUNT}.dfs.core.windows.net", "OAuth")
 spark.conf.set(f"fs.azure.account.oauth.provider.type.{STORAGE_ACCOUNT}.dfs.core.windows.net", "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider")
