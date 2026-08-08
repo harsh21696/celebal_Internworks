@@ -81,7 +81,7 @@ Customer-Support-Pipeline/
 │
 ├── README.md
 │
-└── screenshots/
+└── screenshots
 ```
 
 ---

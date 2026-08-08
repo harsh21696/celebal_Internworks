@@ -1,0 +1,551 @@
+product_id,product_name,category,subcategory,cost_price
+1,Where Sweater,Clothing,Kids,43045.83
+2,Town Journal,Books,Non-Fiction,5353.89
+3,Because Jeans,Clothing,Footwear,12433.55
+4,Federal Speaker,Electronics,Mobiles,43214.98
+5,Piece Comic Book,Books,Non-Fiction,46690.89
+6,Under Lamp,Home,Furniture,25760.51
+7,Of Storybook,Books,Academic,47264.38
+8,Issue Cookbook,Books,Non-Fiction,2480.47
+9,Even Mirror,Home,Bedding,458.46
+10,Current Headphones,Electronics,Cameras,36389.03
+11,Accept Novel,Books,Academic,28535.57
+12,Security Dress,Clothing,Kids,25237.56
+13,Six Sofa,Home,Cleaning,4879.24
+14,Strategy Curtains,Home,Decor,9992.94
+15,Account Novel,Books,Children,6894.97
+16,Participant Mirror,Home,Bedding,44661.93
+17,Necessary Sweater,Clothing,Kids,49531.26
+18,Buy Curtains,Home,Cleaning,25510.22
+19,Nature Biography,Books,Children,881.02
+20,Account Cookware Set,Home,Kitchen,39847.9
+21,How Smartwatch,Electronics,Audio,32796.77
+22,Real Socks,Clothing,Men,31469.81
+23,Describe Cookbook,Books,Non-Fiction,47412.85
+24,Rise Phone,Electronics,Laptops,20968.08
+25,Summer Encyclopedia,Books,Non-Fiction,30593.33
+26,Four Comic Book,Books,Fiction,28066.29
+27,Issue Encyclopedia,Books,Children,8700.46
+28,High Curtains,Home,Cleaning,43389.34
+29,Both Mirror,Home,Cleaning,12363.63
+30,Clear Vacuum Cleaner,Home,Furniture,35259.8
+31,Last Storybook,Books,Academic,46688.33
+32,Reach Sofa,Home,Decor,27182.38
+33,Pay Comic Book,Books,Academic,14417.14
+34,Environment Smartwatch,Electronics,Accessories,37379.56
+35,Every Dress,Clothing,Women,34823.76
+36,Top Shoes,Clothing,Men,33508.21
+37,North T-Shirt,Clothing,Women,16548.17
+38,Land Comic Book,Books,Fiction,27540.11
+39,Other Socks,Clothing,Footwear,10012.83
+40,History Vacuum Cleaner,Home,Decor,45401.45
+41,Population Camera,Electronics,Audio,36169.73
+42,Fact Tablet,Electronics,Laptops,8830.65
+43,Response Smartwatch,Electronics,Cameras,37462.71
+44,Industry Mixer,Home,Kitchen,30159.01
+45,Someone Mirror,Home,Decor,27187.86
+46,Democrat Storybook,Books,Non-Fiction,40450.25
+47,Job Mirror,Home,Furniture,35943.98
+48,Old Speaker,Electronics,Accessories,37876.27
+49,Step Cap,Clothing,Winter Wear,25788.27
+50,Onto Laptop,Electronics,Cameras,7073.56
+51,Meeting Mixer,Home,Furniture,11814.29
+52,Country Vacuum Cleaner,Home,Decor,28665.22
+53,Hospital Bedsheet,Home,Decor,5955.33
+54,Operation Cookware Set,Home,Furniture,46159.15
+55,One Vacuum Cleaner,Home,Kitchen,11081.42
+56,Member Jacket,Clothing,Footwear,49442.46
+57,Environment Mirror,Home,Bedding,40109.65
+58,Food Jeans,Clothing,Women,26432.25
+59,Participant Sofa,Home,Kitchen,27405.08
+60,Guy Jacket,Clothing,Winter Wear,42731.58
+61,Staff Cookbook,Books,Fiction,24466.96
+62,Season Storybook,Books,Fiction,20800.46
+63,Information Smartwatch,Electronics,Audio,15443.07
+64,Simply Speaker,Electronics,Cameras,37302.93
+65,Certainly Tablet,Electronics,Mobiles,3234.81
+66,Top Smartwatch,Electronics,Mobiles,20472.9
+67,Treat Sweater,Clothing,Footwear,19154.86
+68,Receive Textbook,Books,Comics,33106.54
+69,By Jeans,Clothing,Kids,26886.06
+70,Small T-Shirt,Clothing,Women,48925.61
+71,Drug Encyclopedia,Books,Children,41176.85
+72,Likely Sweater,Clothing,Footwear,9464.6
+73,Stay Tablet,Electronics,Mobiles,46815.08
+74,Scene Camera,Electronics,Laptops,29717.51
+75,Color Novel,Books,Children,2259.62
+76,Black Cookbook,Books,Non-Fiction,38814.38
+77,Difficult Dress,Clothing,Winter Wear,45824.03
+78,Movie Curtains,Home,Cleaning,43819.1
+79,Institution Dress,Clothing,Footwear,27858.07
+80,Stock Socks,Clothing,Footwear,17253.52
+81,Ground Journal,Books,Children,20442.55
+82,Suddenly Lamp,Home,Bedding,23702.27
+83,Oil Jacket,Clothing,Kids,45741.32
+84,Positive Comic Book,Books,Comics,12787.03
+85,Same Mirror,Home,Kitchen,4668.58
+86,Return Dress,Clothing,Men,30268.22
+87,Seat Camera,Electronics,Mobiles,29399.81
+88,Area Shoes,Clothing,Footwear,16681.57
+89,College Camera,Electronics,Laptops,5909.94
+90,Improve Cookbook,Books,Non-Fiction,12004.58
+91,Provide Cookware Set,Home,Decor,32453.63
+92,Accept Curtains,Home,Decor,24889.0
+93,Summer Charger,Electronics,Cameras,18566.71
+94,Benefit Cookbook,Books,Fiction,860.18
+95,Than Comic Book,Books,Academic,11539.43
+96,Check Sweater,Clothing,Footwear,41088.52
+97,Market Comic Book,Books,Comics,17641.2
+98,With Socks,Clothing,Winter Wear,44473.76
+99,Plan Phone,Electronics,Audio,3762.8
+100,Learn Tablet,Electronics,Mobiles,31553.55
+101,Behavior Phone,Electronics,Laptops,22827.68
+102,Attack Smartwatch,Electronics,Audio,835.8
+103,Everyone Novel,Books,Fiction,13773.3
+104,Doctor Cookware Set,Home,Kitchen,45493.18
+105,Hospital Headphones,Electronics,Mobiles,31008.05
+106,Base Vacuum Cleaner,Home,Decor,3997.01
+107,Politics Cookbook,Books,Comics,11331.57
+108,Always Laptop,Electronics,Mobiles,18889.62
+109,Shake Novel,Books,Fiction,4180.17
+110,If Textbook,Books,Academic,45961.65
+111,Word Socks,Clothing,Women,46211.76
+112,Institution Mixer,Home,Cleaning,42528.86
+113,Positive Headphones,Electronics,Laptops,35649.93
+114,Reality Biography,Books,Fiction,12061.59
+115,Near Journal,Books,Children,37000.27
+116,Few Charger,Electronics,Audio,21882.56
+117,Seek Tablet,Electronics,Accessories,16352.51
+118,Picture Mirror,Home,Bedding,27674.23
+119,Art Comic Book,Books,Comics,33050.56
+120,Young Speaker,Electronics,Audio,35669.77
+121,Staff Headphones,Electronics,Accessories,39205.32
+122,Ten Sweater,Clothing,Footwear,4621.45
+123,Continue Curtains,Home,Bedding,5156.46
+124,Push Tablet,Electronics,Laptops,27759.26
+125,Miss Novel,Books,Fiction,27733.28
+126,Leg Mixer,Home,Bedding,19420.59
+127,Action Camera,Electronics,Audio,8520.67
+128,Defense Comic Book,Books,Non-Fiction,13456.92
+129,To Jacket,Clothing,Men,21084.06
+130,Realize Journal,Books,Fiction,12367.17
+131,Word Cookbook,Books,Children,6817.7
+132,Summer Charger,Electronics,Cameras,19025.5
+133,National Curtains,Home,Bedding,41185.59
+134,Feeling Sweater,Clothing,Kids,34779.85
+135,Day Comic Book,Books,Academic,48437.82
+136,Along Bedsheet,Home,Bedding,14050.99
+137,Step Textbook,Books,Academic,10030.01
+138,Place T-Shirt,Clothing,Winter Wear,23108.03
+139,Mrs Dress,Clothing,Footwear,3504.48
+140,Name Comic Book,Books,Comics,12138.96
+141,Say Cap,Clothing,Footwear,49535.5
+142,Each Encyclopedia,Books,Children,46178.61
+143,Possible Novel,Books,Children,18008.5
+144,Condition Camera,Electronics,Mobiles,17782.69
+145,Represent Tablet,Electronics,Audio,16613.26
+146,Also Novel,Books,Fiction,11138.95
+147,Here Sweater,Clothing,Footwear,38628.49
+148,Edge T-Shirt,Clothing,Kids,14806.84
+149,Real Headphones,Electronics,Mobiles,17186.18
+150,A Socks,Clothing,Winter Wear,4926.27
+151,Coach Textbook,Books,Academic,40518.79
+152,Before Charger,Electronics,Mobiles,33873.11
+153,Fact Jacket,Clothing,Women,16582.93
+154,State Cookbook,Books,Comics,31506.53
+155,Instead Cap,Clothing,Footwear,30724.64
+156,Head Cap,Clothing,Footwear,35251.54
+157,Relationship Jeans,Clothing,Kids,39985.14
+158,Indicate Sweater,Clothing,Kids,5742.05
+159,Into Journal,Books,Children,30584.86
+160,Peace Charger,Electronics,Accessories,30887.27
+161,Deep Sofa,Home,Cleaning,15693.63
+162,National Jeans,Clothing,Kids,34687.16
+163,Administration Comic Book,Books,Comics,21180.79
+164,Since Comic Book,Books,Children,24507.62
+165,Score Sweater,Clothing,Women,30989.53
+166,Authority Mirror,Home,Kitchen,40770.04
+167,Wide Storybook,Books,Comics,42002.6
+168,Believe Textbook,Books,Non-Fiction,39804.25
+169,Often T-Shirt,Clothing,Kids,26903.55
+170,Feel Socks,Clothing,Footwear,5704.89
+171,She Charger,Electronics,Accessories,37851.47
+172,Themselves Cookbook,Books,Children,5165.7
+173,Operation T-Shirt,Clothing,Kids,17461.42
+174,Who Laptop,Electronics,Cameras,11885.46
+175,Pass Cookware Set,Home,Cleaning,7004.79
+176,Happen T-Shirt,Clothing,Women,26637.43
+177,Hand Dress,Clothing,Kids,13403.79
+178,Team Tablet,Electronics,Laptops,49624.69
+179,Factor Shoes,Clothing,Women,16138.73
+180,Draw Socks,Clothing,Footwear,31638.48
+181,Police Storybook,Books,Comics,39740.2
+182,Day Speaker,Electronics,Cameras,43872.0
+183,Look Journal,Books,Comics,43451.94
+184,Wonder Charger,Electronics,Cameras,39794.11
+185,International Encyclopedia,Books,Non-Fiction,24761.01
+186,Paper Curtains,Home,Decor,6573.18
+187,Above Novel,Books,Academic,31327.67
+188,Every Textbook,Books,Fiction,7941.28
+189,Continue Encyclopedia,Books,Fiction,34445.16
+190,Investment Jacket,Clothing,Kids,43835.92
+191,Move Speaker,Electronics,Accessories,33242.22
+192,Both Cap,Clothing,Men,36313.12
+193,Operation Jeans,Clothing,Footwear,104.26
+194,Baby Comic Book,Books,Fiction,25996.24
+195,Most Novel,Books,Fiction,40864.6
+196,Financial Storybook,Books,Non-Fiction,19184.34
+197,Grow Charger,Electronics,Mobiles,14997.8
+198,Your Comic Book,Books,Non-Fiction,28186.4
+199,But Sweater,Clothing,Footwear,31422.6
+200,Suggest Socks,Clothing,Footwear,4380.07
+201,Must Laptop,Electronics,Laptops,19232.39
+202,Even Comic Book,Books,Academic,32248.8
+203,Under Dress,Clothing,Winter Wear,34539.28
+204,Note Bedsheet,Home,Furniture,14812.33
+205,Tax Smartwatch,Electronics,Laptops,12092.03
+206,Student Phone,Electronics,Audio,46699.52
+207,Paper Cap,Clothing,Footwear,34162.96
+208,Enough Novel,Books,Fiction,738.98
+209,Rule T-Shirt,Clothing,Men,19928.85
+210,Level Cookware Set,Home,Cleaning,20143.76
+211,Huge Jeans,Clothing,Kids,25589.67
+212,Order Sweater,Clothing,Women,31733.0
+213,Member Tablet,Electronics,Accessories,42331.08
+214,Speech Laptop,Electronics,Laptops,5843.53
+215,Either Headphones,Electronics,Accessories,35409.64
+216,Sometimes Smartwatch,Electronics,Laptops,26174.12
+217,Group Curtains,Home,Furniture,39067.14
+218,Stand Mixer,Home,Kitchen,21494.76
+219,Low Laptop,Electronics,Accessories,25563.55
+220,Responsibility Headphones,Electronics,Cameras,12793.05
+221,Magazine Laptop,Electronics,Audio,25465.8
+222,Watch Camera,Electronics,Mobiles,18230.63
+223,Peace T-Shirt,Clothing,Women,45701.69
+224,Training Journal,Books,Non-Fiction,45796.95
+225,Ahead Sofa,Home,Decor,6014.08
+226,Meet Camera,Electronics,Laptops,49071.62
+227,But Storybook,Books,Fiction,38687.7
+228,Evening Sofa,Home,Decor,448.06
+229,Author Dress,Clothing,Kids,12167.07
+230,Idea Mirror,Home,Cleaning,38805.5
+231,Property T-Shirt,Clothing,Women,1244.32
+232,Story Curtains,Home,Kitchen,32882.33
+233,Discussion Bedsheet,Home,Kitchen,11946.47
+234,Research Comic Book,Books,Fiction,4696.68
+235,Science Cap,Clothing,Winter Wear,18655.97
+236,Drug Laptop,Electronics,Audio,31878.92
+237,Such Novel,Books,Fiction,48212.7
+238,Four Dress,Clothing,Kids,46305.8
+239,Itself Journal,Books,Academic,11718.88
+240,Head Jeans,Clothing,Women,8260.53
+241,Name Encyclopedia,Books,Academic,17946.46
+242,North Dress,Clothing,Footwear,42631.49
+243,Act Speaker,Electronics,Laptops,34859.06
+244,School Charger,Electronics,Laptops,35572.31
+245,There Mixer,Home,Bedding,13045.33
+246,Everyone Cap,Clothing,Men,27819.89
+247,Energy Socks,Clothing,Men,39700.8
+248,Field Phone,Electronics,Mobiles,49129.23
+249,Better Cap,Clothing,Women,31533.36
+250,Inside Speaker,Electronics,Audio,3795.61
+251,Report Smartwatch,Electronics,Laptops,4644.33
+252,Smile Mixer,Home,Kitchen,2579.35
+253,Tend Storybook,Books,Comics,34176.49
+254,Guess Shoes,Clothing,Kids,13785.34
+255,Bag Novel,Books,Non-Fiction,30868.01
+256,Once Cookware Set,Home,Bedding,23977.59
+257,Word Tablet,Electronics,Accessories,10012.92
+258,Could T-Shirt,Clothing,Winter Wear,39106.69
+259,Maybe Mirror,Home,Bedding,28304.27
+260,Former Vacuum Cleaner,Home,Bedding,15977.93
+261,Health Dress,Clothing,Men,49576.99
+262,Discover Bedsheet,Home,Cleaning,5051.71
+263,Wall T-Shirt,Clothing,Kids,47392.73
+264,Painting Comic Book,Books,Academic,29646.35
+265,Exist Mixer,Home,Cleaning,17616.52
+266,Cover Shoes,Clothing,Winter Wear,40529.54
+267,Your Biography,Books,Children,1946.29
+268,Skin Camera,Electronics,Laptops,23925.55
+269,Result Bedsheet,Home,Cleaning,17070.91
+270,Wonder T-Shirt,Clothing,Kids,29351.13
+271,Where Sweater,Clothing,Men,18710.86
+272,Customer Textbook,Books,Children,16164.03
+273,Moment Socks,Clothing,Footwear,8751.42
+274,Since Lamp,Home,Furniture,36713.05
+275,Decision Lamp,Home,Furniture,47441.97
+276,Easy Novel,Books,Children,15944.93
+277,Simply Jeans,Clothing,Winter Wear,7075.14
+278,Effort Charger,Electronics,Laptops,8435.98
+279,Turn Smartwatch,Electronics,Accessories,10523.73
+280,Evidence Speaker,Electronics,Accessories,36034.66
+281,Design Smartwatch,Electronics,Cameras,48456.64
+282,Drop Encyclopedia,Books,Comics,18798.61
+283,Degree Cookbook,Books,Children,3731.78
+284,They Phone,Electronics,Accessories,47585.52
+285,Enjoy Headphones,Electronics,Accessories,8087.18
+286,Think Laptop,Electronics,Audio,49264.54
+287,Present Encyclopedia,Books,Fiction,8291.61
+288,Heart Novel,Books,Non-Fiction,10317.25
+289,Clearly Dress,Clothing,Footwear,14905.16
+290,Start Tablet,Electronics,Mobiles,42000.73
+291,Both Sweater,Clothing,Men,4427.04
+292,Call Textbook,Books,Non-Fiction,8583.07
+293,Wife Mirror,Home,Kitchen,15452.25
+294,Bar Storybook,Books,Comics,13286.97
+295,Require Journal,Books,Non-Fiction,18501.61
+296,Record Biography,Books,Fiction,13206.87
+297,Mind Mixer,Home,Cleaning,34838.72
+298,Positive Charger,Electronics,Mobiles,20728.63
+299,According T-Shirt,Clothing,Winter Wear,40929.34
+300,South Storybook,Books,Children,11820.32
+301,Tough Cookware Set,Home,Kitchen,35729.57
+302,Number Socks,Clothing,Men,49219.18
+303,And Jacket,Clothing,Women,3964.51
+304,Thus Comic Book,Books,Non-Fiction,12931.42
+305,Meet Tablet,Electronics,Mobiles,27625.11
+306,Hot Mirror,Home,Cleaning,667.57
+307,Pressure Encyclopedia,Books,Fiction,28351.37
+308,Forward Laptop,Electronics,Mobiles,43380.39
+309,Mind Vacuum Cleaner,Home,Bedding,24304.96
+310,Water Comic Book,Books,Fiction,7235.44
+311,Upon Encyclopedia,Books,Fiction,16608.13
+312,Watch Socks,Clothing,Men,44856.72
+313,Paper Speaker,Electronics,Accessories,42150.19
+314,Trouble Headphones,Electronics,Laptops,37199.0
+315,Face Cookware Set,Home,Decor,4509.88
+316,Military Encyclopedia,Books,Non-Fiction,37986.69
+317,Cover Lamp,Home,Kitchen,35492.99
+318,South Novel,Books,Non-Fiction,43765.27
+319,Whole Shoes,Clothing,Men,2575.44
+320,Much Vacuum Cleaner,Home,Furniture,23237.71
+321,Far Novel,Books,Fiction,24464.9
+322,Information Storybook,Books,Non-Fiction,17520.51
+323,Doctor Jeans,Clothing,Kids,19358.96
+324,Social Shoes,Clothing,Winter Wear,32386.63
+325,Part Cap,Clothing,Kids,43238.27
+326,Career Headphones,Electronics,Cameras,30077.04
+327,Arm Speaker,Electronics,Laptops,47153.1
+328,Never Cookware Set,Home,Bedding,22976.95
+329,Successful Dress,Clothing,Footwear,41224.33
+330,Land Textbook,Books,Children,49971.5
+331,Mean Vacuum Cleaner,Home,Cleaning,5449.82
+332,Yard Speaker,Electronics,Accessories,43081.51
+333,Now Bedsheet,Home,Decor,38285.45
+334,Alone Tablet,Electronics,Audio,34053.75
+335,Morning Speaker,Electronics,Cameras,20957.36
+336,Hand Cookbook,Books,Fiction,35682.8
+337,Indeed Biography,Books,Academic,42039.9
+338,Traditional Jeans,Clothing,Kids,37058.9
+339,Rich Jeans,Clothing,Kids,11205.23
+340,Stand Curtains,Home,Bedding,29299.26
+341,Contain Storybook,Books,Fiction,31738.12
+342,Lot Camera,Electronics,Cameras,43381.51
+343,Camera Biography,Books,Children,43548.91
+344,Say Shoes,Clothing,Women,49360.22
+345,National Journal,Books,Non-Fiction,9058.82
+346,Magazine Charger,Electronics,Cameras,8882.37
+347,Four Smartwatch,Electronics,Mobiles,38071.6
+348,Risk Jacket,Clothing,Winter Wear,38190.28
+349,Across Tablet,Electronics,Laptops,20199.5
+350,Actually Novel,Books,Comics,10010.74
+351,Represent Curtains,Home,Kitchen,26575.14
+352,Develop Camera,Electronics,Mobiles,43855.41
+353,Hundred Sofa,Home,Furniture,29454.1
+354,Partner T-Shirt,Clothing,Men,14576.85
+355,Blood Lamp,Home,Bedding,45074.12
+356,Gas Lamp,Home,Furniture,45914.36
+357,High Cookbook,Books,Fiction,49244.73
+358,Position Jacket,Clothing,Men,35569.95
+359,Training Speaker,Electronics,Cameras,31175.58
+360,Event Phone,Electronics,Mobiles,5833.7
+361,Culture Textbook,Books,Comics,23746.1
+362,Official T-Shirt,Clothing,Women,33100.15
+363,Everyone Lamp,Home,Cleaning,44936.17
+364,Economic Laptop,Electronics,Accessories,24912.07
+365,Exist Shoes,Clothing,Kids,20517.32
+366,Market Socks,Clothing,Men,34425.79
+367,Position Cookbook,Books,Academic,33598.07
+368,Gun Smartwatch,Electronics,Audio,4549.63
+369,History Speaker,Electronics,Mobiles,22864.72
+370,Create Mirror,Home,Decor,40668.26
+371,Moment Charger,Electronics,Accessories,15669.72
+372,Language Phone,Electronics,Mobiles,6962.8
+373,Develop Sweater,Clothing,Kids,47756.7
+374,Kind Curtains,Home,Kitchen,9184.33
+375,School Storybook,Books,Comics,19316.49
+376,Soldier Comic Book,Books,Comics,34823.69
+377,Hotel Laptop,Electronics,Laptops,29557.98
+378,His Encyclopedia,Books,Non-Fiction,30587.35
+379,Too Socks,Clothing,Footwear,20593.65
+380,Institution Speaker,Electronics,Mobiles,667.39
+381,Far Jeans,Clothing,Kids,36346.27
+382,Little Encyclopedia,Books,Academic,41330.57
+383,Couple Headphones,Electronics,Mobiles,23490.98
+384,Owner Textbook,Books,Non-Fiction,16065.66
+385,Catch Mixer,Home,Decor,27547.25
+386,Parent Cookbook,Books,Comics,22237.23
+387,Rich Storybook,Books,Fiction,5979.41
+388,Drop Textbook,Books,Fiction,1839.81
+389,Teach Speaker,Electronics,Mobiles,28138.51
+390,Black Journal,Books,Academic,40838.6
+391,Set Storybook,Books,Academic,18196.56
+392,Expect Textbook,Books,Fiction,11126.27
+393,Summer Vacuum Cleaner,Home,Decor,18725.82
+394,Eat Headphones,Electronics,Mobiles,41100.84
+395,One Biography,Books,Fiction,9417.79
+396,Lay Storybook,Books,Non-Fiction,9569.41
+397,Total Cookware Set,Home,Kitchen,31680.36
+398,I Smartwatch,Electronics,Cameras,47811.71
+399,Deal T-Shirt,Clothing,Footwear,2476.15
+400,Child Storybook,Books,Children,39065.02
+401,Such Jacket,Clothing,Winter Wear,6462.67
+402,Single Journal,Books,Children,19263.9
+403,Citizen Cap,Clothing,Kids,48526.06
+404,Material Comic Book,Books,Non-Fiction,35015.71
+405,Sure Curtains,Home,Cleaning,46778.83
+406,Act Shoes,Clothing,Women,14564.45
+407,Control Lamp,Home,Furniture,34730.88
+408,Know Curtains,Home,Kitchen,29161.17
+409,Money Biography,Books,Children,21148.2
+410,Center Laptop,Electronics,Audio,7309.07
+411,Walk Speaker,Electronics,Laptops,8088.72
+412,Time Lamp,Home,Decor,34545.21
+413,Professor Mixer,Home,Furniture,22657.1
+414,Nation Cap,Clothing,Winter Wear,39226.14
+415,None Cookware Set,Home,Kitchen,47837.26
+416,Service Mixer,Home,Cleaning,12604.49
+417,Four Journal,Books,Non-Fiction,27353.43
+418,Stock Dress,Clothing,Women,49173.49
+419,Message Headphones,Electronics,Laptops,6011.72
+420,First Speaker,Electronics,Cameras,6546.82
+421,Enough Curtains,Home,Kitchen,46877.85
+422,Or Charger,Electronics,Laptops,38694.36
+423,Town Curtains,Home,Bedding,35398.69
+424,Out Jeans,Clothing,Women,8010.56
+425,Anyone Journal,Books,Fiction,10707.02
+426,Information Curtains,Home,Decor,47517.9
+427,Bit Novel,Books,Children,17333.06
+428,Rock Shoes,Clothing,Winter Wear,34143.44
+429,Common Sofa,Home,Bedding,27034.85
+430,As Curtains,Home,Kitchen,25461.34
+431,Dinner Biography,Books,Fiction,9665.99
+432,Teach Headphones,Electronics,Mobiles,38677.26
+433,Environmental Camera,Electronics,Mobiles,38690.43
+434,Maybe Cookbook,Books,Fiction,35152.01
+435,Those Comic Book,Books,Fiction,35857.57
+436,Professional Laptop,Electronics,Mobiles,39721.03
+437,Big Camera,Electronics,Audio,20411.26
+438,Listen Encyclopedia,Books,Comics,19505.62
+439,Size Phone,Electronics,Audio,30936.55
+440,Good Charger,Electronics,Mobiles,5351.47
+441,Ever Sofa,Home,Cleaning,46338.21
+442,Herself Novel,Books,Comics,26696.71
+443,Here Dress,Clothing,Footwear,7246.57
+444,Opportunity Lamp,Home,Kitchen,301.24
+445,Onto Textbook,Books,Children,37427.41
+446,Work Cookware Set,Home,Furniture,42580.37
+447,Take Jacket,Clothing,Women,41745.68
+448,Even Jacket,Clothing,Men,28386.27
+449,Guy Smartwatch,Electronics,Audio,3703.57
+450,Again Laptop,Electronics,Accessories,29050.75
+451,Its Lamp,Home,Decor,11764.92
+452,Campaign Sofa,Home,Cleaning,15923.41
+453,Have Biography,Books,Academic,7662.13
+454,Trip Cookware Set,Home,Decor,15695.08
+455,Respond Dress,Clothing,Footwear,6758.58
+456,Police Mirror,Home,Bedding,38749.61
+457,Decide Textbook,Books,Children,30351.05
+458,Part Bedsheet,Home,Furniture,44322.47
+459,Parent Phone,Electronics,Mobiles,31599.74
+460,Rate Cookbook,Books,Children,27602.12
+461,Range Journal,Books,Non-Fiction,44577.31
+462,Nothing Mirror,Home,Furniture,4573.17
+463,Contain Mixer,Home,Cleaning,42406.69
+464,Statement Jacket,Clothing,Winter Wear,8998.3
+465,Feel Sweater,Clothing,Footwear,38085.55
+466,Hear Dress,Clothing,Men,2188.28
+467,Garden Sweater,Clothing,Winter Wear,45899.2
+468,Report Charger,Electronics,Mobiles,48423.65
+469,Mrs Lamp,Home,Decor,18957.0
+470,Method Speaker,Electronics,Audio,45366.76
+471,Stage Journal,Books,Academic,24131.4
+472,Since Headphones,Electronics,Audio,11538.04
+473,Likely Lamp,Home,Furniture,18143.04
+474,Visit Tablet,Electronics,Laptops,36026.77
+475,Bar Storybook,Books,Comics,8104.25
+476,I Cookbook,Books,Fiction,28695.65
+477,Positive T-Shirt,Clothing,Women,7385.91
+478,Few Jacket,Clothing,Kids,20302.54
+479,Major Laptop,Electronics,Accessories,30345.97
+480,Program Comic Book,Books,Comics,20567.8
+481,Check Jacket,Clothing,Winter Wear,25564.71
+482,Trouble Socks,Clothing,Kids,3488.7
+483,Computer Comic Book,Books,Comics,10157.31
+484,Push Textbook,Books,Non-Fiction,45085.33
+485,System Laptop,Electronics,Audio,32986.66
+486,Without Tablet,Electronics,Cameras,2219.74
+487,Green Storybook,Books,Non-Fiction,19092.76
+488,Know Headphones,Electronics,Cameras,38304.65
+489,Program Tablet,Electronics,Accessories,323.2
+490,Position Laptop,Electronics,Audio,18782.74
+491,Owner Cap,Clothing,Kids,7781.19
+492,Interview Cookware Set,Home,Decor,30613.44
+493,Time Encyclopedia,Books,Non-Fiction,27900.26
+494,What Socks,Clothing,Kids,15367.32
+495,Away Lamp,Home,Bedding,32981.18
+496,Base Jacket,Clothing,Footwear,25441.76
+497,Color Mixer,Home,Cleaning,48230.28
+498,Gun Headphones,Electronics,Mobiles,30032.26
+499,Drive Speaker,Electronics,Mobiles,4047.98
+500,Former Tablet,Electronics,Cameras,26074.23
+501,Free Smartwatch,Electronics,Laptops,10125.28
+502,Read Mixer,Home,Furniture,25551.87
+503,Film Jacket,Clothing,Winter Wear,18019.01
+504,See Laptop,Electronics,Laptops,38994.66
+505,Example Cookware Set,Home,Bedding,25911.25
+506,Point Speaker,Electronics,Mobiles,27977.74
+507,Quite Vacuum Cleaner,Home,Decor,48154.7
+508,Indicate Novel,Books,Comics,20386.37
+509,Experience Laptop,Electronics,Audio,17031.3
+510,Very Speaker,Electronics,Audio,40666.71
+511,Light Cookware Set,Home,Bedding,38509.86
+512,Statement Mirror,Home,Bedding,43108.06
+513,Travel Biography,Books,Fiction,31701.41
+514,Wrong Sweater,Clothing,Women,17687.16
+515,Him Camera,Electronics,Accessories,19976.59
+516,Small Lamp,Home,Kitchen,17709.22
+517,People Bedsheet,Home,Furniture,10023.34
+518,Near Shoes,Clothing,Kids,41755.28
+519,Little Sofa,Home,Furniture,3970.45
+520,Job Novel,Books,Children,27096.62
+521,Computer Charger,Electronics,Cameras,24642.4
+522,Create Lamp,Home,Bedding,45804.54
+523,Too Bedsheet,Home,Bedding,6455.89
+524,Agency Novel,Books,Comics,19716.16
+525,Car Jeans,Clothing,Footwear,23030.53
+526,Should Camera,Electronics,Mobiles,5082.35
+527,Easy Vacuum Cleaner,Home,Cleaning,13179.31
+528,Recently Curtains,Home,Bedding,24963.56
+529,Enter Sweater,Clothing,Footwear,20059.6
+530,Yeah Comic Book,Books,Non-Fiction,34316.3
+531,Six Camera,Electronics,Accessories,42822.62
+532,School Jacket,Clothing,Women,536.63
+533,So Comic Book,Books,Comics,42477.03
+534,Base Vacuum Cleaner,Home,Bedding,42932.17
+535,Develop Laptop,Electronics,Cameras,3048.82
+536,Compare Sofa,Home,Bedding,16766.09
+537,Industry Vacuum Cleaner,Home,Decor,20617.46
+538,Board Bedsheet,Home,Cleaning,32510.78
+539,Beyond Sweater,Clothing,Kids,25546.7
+540,Attack Encyclopedia,Books,Fiction,23214.42
+541,Write Sweater,Clothing,Women,30634.89
+542,Unit Textbook,Books,Fiction,11449.49
+543,Material Vacuum Cleaner,Home,Decor,19802.99
+544,Official Storybook,Books,Academic,9235.12
+545,Arm Camera,Electronics,Laptops,47024.85
+546,Agree Headphones,Electronics,Laptops,4822.91
+547,Spend Novel,Books,Children,19880.78
+548,Industry Speaker,Electronics,Mobiles,4261.35
+549,Need Cookbook,Books,Academic,14244.56
+550,Southern Jacket,Clothing,Women,33194.28

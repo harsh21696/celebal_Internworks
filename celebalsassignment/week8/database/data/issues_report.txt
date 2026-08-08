@@ -1,0 +1,14 @@
+Data cleaning run: 2026-08-08 18:14:10
+======================================================================
+orders.csv: 102 rows had missing/NULL customer_id -> set to 'UNKNOWN'
+orders.csv: 201 rows had non-standard date formats -> normalized to YYYY-MM-DD HH:MM:SS
+products.csv: 254 product names normalized (trimmed/title-cased)
+customers.csv: 8 customers have invalid emails (ids: ['61', '238', '279', '383', '434', '514', '520', '528'])
+order_items.csv: 0 rows reference a non-existent order_id (orphans)
+order_items.csv: 0 orphan rows removed after referential-integrity check
+======================================================================
+SUMMARY OF ROW COUNTS
+customers:   raw=   600  cleaned=   600
+products:    raw=   550  cleaned=   550
+orders:      raw=  2500  cleaned=  2500
+order_items: raw=  7455  cleaned=  7455
