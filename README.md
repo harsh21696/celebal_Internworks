@@ -40,7 +40,8 @@ CELEBAL_INTERNWORKS/
 │   ├── week4/
 │   ├── week5/
 │   ├── week6/
-│   └── week7/
+│   ├── week7/
+│   └── week8/
 │
 └── README.md
 ```
@@ -187,6 +188,543 @@ Final Delta Table
 ```
 
 ---
+
+# 🛒 Week 8 — E-Commerce Order Analytics System
+
+> **Celebal Technologies — Intern Mini Project | Week 8**
+
+An end-to-end analytics pipeline built with **Python, Pandas, SQL, and SQLite** that generates realistic e-commerce data, introduces intentional inconsistencies, cleans and validates the data, loads it into a relational database, performs advanced SQL analytics, and serves business insights through a command-line reporting tool.
+
+---
+
+## 🔄 Workflow
+
+```text
+Raw Data
+   ↓
+Data Generation
+   ↓
+Cleaning & Validation
+   ↓
+Cleaned CSVs
+   ↓
+SQLite Database
+   ↓
+SQL Analytics
+   ↓
+Cohort & Retention Analysis
+   ↓
+CLI Reports
+   ↓
+Edge-Case Testing
+```
+
+---
+
+## 🎯 Objectives
+
+- Generate realistic e-commerce datasets with intentional data-quality issues.
+- Clean and validate data using Pandas.
+- Maintain referential integrity across multiple tables.
+- Load cleaned data into SQLite.
+- Perform advanced SQL analytics using joins, aggregations, CTEs, and window functions.
+- Perform customer segmentation and cohort/retention analysis.
+- Build an interactive CLI reporting tool.
+- Test critical edge cases to improve robustness and reliability.
+
+---
+
+## 📂 Week 8 Project Structure
+
+```text
+week8/
+│
+├── data/
+│   ├── customers.csv
+│   ├── products.csv
+│   ├── orders.csv
+│   ├── order_items.csv
+│   ├── cleaned_customers.csv
+│   ├── cleaned_products.csv
+│   ├── cleaned_orders.csv
+│   ├── cleaned_order_items.csv
+│   └── issues_report.txt
+│
+├── database/
+│   ├── create_tables.sql
+│   ├── load_data.py
+│   └── ecommerce.db
+│
+├── data_generation/
+│   └── generate_data.py
+│
+├── cleaning/
+│   ├── clean_data.py
+│   └── validation.py
+│
+├── sql_queries/
+│   ├── basic_queries.sql
+│   ├── intermediate_queries.sql
+│   └── advanced_queries.sql
+│
+├── reports/
+│   └── report_generator.py
+│
+├── tests/
+│   └── edge_cases.py
+│
+├── screenshots/
+│
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **Python + Pandas** | Data generation, cleaning and validation |
+| **Faker** | Synthetic data generation |
+| **SQLite** | Relational database |
+| **SQL** | Business analytics |
+| **Git & GitHub** | Version control |
+
+---
+
+## 📊 Datasets
+
+| Table | Key Fields |
+|---|---|
+| **Customers** | `customer_id`, `customer_name`, `email`, `registration_date`, `customer_type` |
+| **Products** | `product_id`, `product_name`, `category`, `subcategory`, `cost_price` |
+| **Orders** | `order_id`, `customer_id`, `order_date`, `status`, `region_code` |
+| **Order Items** | `item_id`, `order_id`, `product_id`, `quantity`, `unit_price`, `discount_percent` |
+
+The project generates approximately:
+
+- **600 customers**
+- **550 products**
+- **2,500 orders**
+- **7,400 order items**
+
+---
+
+## ⚠️ Intentional Data Issues
+
+The raw datasets contain controlled inconsistencies to simulate real-world e-commerce data-quality problems:
+
+- Missing `customer_id` in orders (~5%).
+- Negative quantities in order items (~3%), representing valid returns.
+- Incorrect date formats in orders.
+- Extra spaces and mixed-case product names/categories.
+- Invalid customer email addresses (~2%).
+- Referential-integrity issues are explicitly checked.
+
+Negative quantities are retained because they represent return transactions rather than ordinary invalid records.
+
+---
+
+## 🧹 Data Cleaning & Validation
+
+The cleaning phase uses **Pandas**.
+
+### Orders
+
+- Detect missing customer IDs.
+- Replace missing customer IDs with `UNKNOWN`.
+- Normalize date formats.
+- Clean order status and region information.
+
+### Products
+
+- Strip leading/trailing whitespace.
+- Collapse unnecessary spaces.
+- Normalize product names.
+- Normalize categories and subcategories.
+
+### Customers
+
+- Validate email addresses using regular expressions.
+- Add an email-validity indicator.
+- Preserve invalid-email customer records rather than deleting them.
+
+### Referential Integrity
+
+The pipeline verifies that every `order_items.order_id` has a corresponding record in `orders`.
+
+### Cleaning Outputs
+
+```text
+cleaned_customers.csv
+cleaned_products.csv
+cleaned_orders.csv
+cleaned_order_items.csv
+issues_report.txt
+```
+
+The `issues_report.txt` file acts as an audit log of the data-quality issues detected during processing.
+
+---
+
+## 💰 Revenue Formula
+
+Revenue is calculated as:
+
+```text
+Revenue =
+quantity × unit_price × (1 - discount_percent / 100)
+```
+
+Example:
+
+```text
+Quantity   = 2
+Unit Price = ₹1,000
+Discount   = 10%
+
+Revenue = 2 × 1000 × (1 - 10/100)
+        = ₹1,800
+```
+
+---
+
+## 🗄️ SQLite Database
+
+The cleaned datasets are loaded into:
+
+```text
+database/ecommerce.db
+```
+
+### Tables
+
+```text
+customers
+products
+orders
+order_items
+```
+
+### Relationships
+
+```text
+customers.customer_id
+        │
+        ▼
+orders.customer_id
+        │
+        ▼
+order_items.order_id
+
+products.product_id
+        │
+        ▼
+order_items.product_id
+```
+
+---
+
+## 📈 SQL Analytics
+
+### 🟢 Basic Analysis
+
+- Revenue by category.
+- Top 10 customers.
+- Month-wise order trends.
+
+### 🟡 Intermediate Analysis
+
+- Customers with no delivered orders.
+- Products returned more than sold.
+- Return rate by category.
+
+### 🔴 Advanced Analysis
+
+- Running revenue totals using window functions.
+- Product ranking using `DENSE_RANK()`.
+- Customer order-gap analysis using `LAG()`.
+- Customer segmentation using `NTILE(4)`.
+- Multi-level CTE analysis.
+- Year-over-year revenue comparison.
+- First/last category analysis using `FIRST_VALUE()` and `LAST_VALUE()`.
+- Cumulative revenue distribution.
+- Cohort and customer retention analysis.
+- Frequently bought-together analysis using a self-join.
+
+---
+
+## 👥 Customer Segmentation
+
+Customers are segmented based on their revenue contribution.
+
+The project demonstrates both CTE-based segmentation and quartile-based segmentation using:
+
+```sql
+NTILE(4)
+```
+
+Segments include:
+
+```text
+Platinum
+Gold
+Silver
+Bronze
+```
+
+---
+
+## 📅 Cohort & Retention Analysis
+
+Customers are grouped according to their registration month.
+
+Retention is analyzed across subsequent months:
+
+```text
+Registration Month
+        ↓
+     Month 0
+        ↓
+     Month 1
+        ↓
+     Month 2
+        ↓
+     Month 3
+```
+
+This provides insight into how effectively the business retains customers over time.
+
+---
+
+## 🖥️ CLI Reporting Tool
+
+Run:
+
+```bash
+python reports/report_generator.py
+```
+
+The CLI supports:
+
+```text
+1. Daily Report
+2. Weekly Report
+3. Monthly Report
+```
+
+Reports include:
+
+- Total orders.
+- Total revenue.
+- Unique customers.
+- Top 3 products.
+- Revenue change compared with the equivalent previous period.
+
+### Example
+
+```text
+========================================
+       E-COMMERCE SALES REPORT
+========================================
+
+Period: 2025-01-01 → 2025-01-31
+
+Total Orders       : 245
+Total Revenue      : ₹1,28,450
+Unique Customers   : 187
+
+Top 3 Products
+----------------------------------------
+1. Laptop
+2. Wireless Mouse
+3. Smartphone
+
+Revenue Change (vs previous period):
++12.45%
+
+========================================
+```
+
+---
+
+## 🧪 Edge Cases Tested
+
+The project includes five important edge-case checks:
+
+1. `order_items` referencing a non-existent order.
+2. Discount greater than 100%.
+3. Zero-quantity transactions.
+4. Future order dates.
+5. Frequently-bought-together query execution without duplicate A↔B pairs.
+
+Run:
+
+```bash
+python tests/edge_cases.py
+```
+
+or:
+
+```bash
+pytest tests/edge_cases.py -v
+```
+
+Expected result:
+
+```text
+5/5 tests passed
+```
+
+---
+
+## ▶️ Running Week 8
+
+### Generate Raw Data
+
+```bash
+python data_generation/generate_data.py
+```
+
+### Clean and Validate
+
+```bash
+python cleaning/clean_data.py
+```
+
+### Build Database
+
+```bash
+python database/load_data.py
+```
+
+### Run Tests
+
+```bash
+python tests/edge_cases.py
+```
+
+### Run CLI Reports
+
+```bash
+python reports/report_generator.py
+```
+
+### Run Complete Pipeline
+
+```bash
+python main.py
+```
+
+---
+
+## 📸 Week 8 Screenshots
+
+The screenshots document the complete Week 8 workflow.
+
+```text
+screenshots/
+│
+├── 01_project_structure.png
+├── 02_raw_data.png
+├── 03_cleaned_data.png
+├── 04_issues_report.png
+├── 05_database_tables.png
+├── 06_basic_sql.png
+├── 07_intermediate_sql.png
+├── 08_advanced_sql.png
+├── 09_cohort_analysis.png
+├── 10_cli_report.png
+└── 11_tests_passed.png
+```
+
+### Screenshot Coverage
+
+| # | Screenshot | Demonstrates |
+|---|---|---|
+| 1 | `01_project_structure.png` | Complete Week 8 project structure |
+| 2 | `02_raw_data.png` | Raw datasets before cleaning |
+| 3 | `03_cleaned_data.png` | Cleaned datasets |
+| 4 | `04_issues_report.png` | Data-quality audit |
+| 5 | `05_database_tables.png` | SQLite database and schema |
+| 6 | `06_basic_sql.png` | Basic SQL analytics |
+| 7 | `07_intermediate_sql.png` | Intermediate SQL analytics |
+| 8 | `08_advanced_sql.png` | Advanced SQL analytics |
+| 9 | `09_cohort_analysis.png` | Cohort and retention analysis |
+| 10 | `10_cli_report.png` | CLI reporting output |
+| 11 | `11_tests_passed.png` | Edge-case test execution |
+
+---
+
+## 📌 Week 8 Project Status
+
+| Component | Status |
+|---|---|
+| Data Generation | ✅ Completed |
+| Data Cleaning & Validation | ✅ Completed |
+| Referential Integrity | ✅ Completed |
+| SQLite Database | ✅ Completed |
+| Basic SQL | ✅ Completed |
+| Intermediate SQL | ✅ Completed |
+| Advanced SQL | ✅ Completed |
+| Customer Segmentation | ✅ Completed |
+| Cohort & Retention Analysis | ✅ Completed |
+| CLI Reporting | ✅ Completed |
+| Edge-Case Testing | ✅ Completed |
+| Documentation & Screenshots | ✅ Completed |
+
+---
+
+## 🧠 Week 8 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Generating realistic synthetic datasets.
+- Handling messy real-world data.
+- Data cleaning with Pandas.
+- Data validation and audit logging.
+- Referential integrity.
+- Relational database design.
+- SQLite integration.
+- SQL joins and aggregations.
+- CTEs and window functions.
+- Customer segmentation.
+- Cohort and retention analysis.
+- Year-over-year analysis.
+- Python-SQL integration.
+- CLI application development.
+- Edge-case testing.
+- Building an end-to-end analytics pipeline.
+
+---
+
+---
+
+## Week 8 – E-Commerce Order Analytics
+
+The Week 8 mini-project focuses on building an end-to-end analytics system using **Python, Pandas, SQL, and SQLite**.
+
+Key areas covered:
+
+- Synthetic e-commerce data generation.
+- Data-quality issue simulation.
+- Pandas-based cleaning and validation.
+- Referential integrity.
+- SQLite database integration.
+- Basic, intermediate, and advanced SQL analytics.
+- Window functions and CTEs.
+- Customer segmentation.
+- Cohort and retention analysis.
+- CLI reporting.
+- Edge-case testing.
+
+The complete implementation is available in:
+
+```text
+celebalassignment/week8/
+```
 
 # 🚀 Final Internship Project
 
@@ -734,7 +1272,7 @@ https://github.com/Harsh21696
 ---
 
 # 🙏 Acknowledgements
-I sincerely thank **Celebal Technologies**, my mentors, and the internship team for their continuous guidance and support throughout this internship.
+I sincerely thank **Celebal Technologies**, my mentors, and HRs for their continuous guidance and support throughout this internship.
 
 The internship provided valuable practical exposure to **data engineering, cloud technologies, Apache Spark, Azure Databricks, Delta Lake, ETL pipelines, and data analytics workflows**.
 
